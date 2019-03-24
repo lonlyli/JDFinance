@@ -1,0 +1,56 @@
+body,h1,h2,h3,h4,h5,h6,p,blockquote,figure,/* 结构元素 */
+ul,ol,dl,dd, /* 列表元素 */
+fieldset,legend,button,input,textarea,/* 表单元素 */
+pre{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%; /* 设置页面高度为铺满屏幕 */
+  line-height: 1.15; /* 统一所有浏览器中的行高 */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; /* 修正盒模型 */
+}
+
+body {
+  min-height: 100%; /* 铺满屏幕且内容高度大于屏幕高度时,使其延伸 */
+  background: #f5f5f5;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+embed,
+iframe,
+object,
+video {
+  height: auto; /* 根据内容自动调节高度。 */
+  max-width: 100%; /* 宽度不超出容器 */
+}
+
+audio {
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
