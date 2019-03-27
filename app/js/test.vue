@@ -1,15 +1,15 @@
 <template lang="html">
-    <div :class="$style.test">
-        <h1>{{ title }}</h1>
-        <p>abcdef</p>
-    </div>
+  <div :class="$style.test">
+    <h1>{{ title }}</h1>
+    <p>abcdef</p>
+  </div>
 </template>
 
 <script>
 export default {
     data() {
         return {
-            title: "abcd",
+            title: 'abcd',
         }
     },
 }

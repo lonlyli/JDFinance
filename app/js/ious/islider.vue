@@ -1,7 +1,7 @@
 <template lang="html">
   <Panel :class="$style.panel" title="轮播图">
     <section :class="$style.content">
-      <Slider :items="items" :cname="$style.slider"/>
+      <Slider :items="items"/>
     </section>
   </Panel>
 </template>
@@ -17,11 +17,11 @@ export default {
     data() {
         return {
             items: [{
-                href: 'home',
-                src: '//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400',
+                href: 'ious',
+                src: '//img12.360buyimg.com/jrpmobile/jfs/t8491/303/504628479/60643/100648de/59a94358N92475fca.jpg?width=750&height=320',
             }, {
                 href: 'home',
-                src: '//img12.360buyimg.com/jrpmobile/jfs/t9994/205/2575467053/189117/125e7b05/59f97c36N7599be57.png?width=750&height=400',
+                src: '//img12.360buyimg.com/jrpmobile/jfs/t8437/321/1758527686/40952/f66d552f/59bf1f41N50d846f9.jpg?width=750&height=320',
             }],
         }
     },
@@ -35,12 +35,10 @@ export default {
     >h4{
       display: none;
     }
+    margin-top: 120px;
     .content{
-      .slider{
-        margin-top: 120px;
-        img{
-          width: 100%;
-        }
+      img{
+        width: 100%;
       }
     }
   }

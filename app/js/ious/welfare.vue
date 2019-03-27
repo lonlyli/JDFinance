@@ -1,29 +1,29 @@
 <template lang="html">
-  <Panel :class="$style.panel" title="理财精选">
+  <Panel :class="$style.panel" title="白条福利">
     <section :class="$style.content">
       <div :class="$style.item">
-        <img src="//img12.360buyimg.com/jrpmobile/jfs/t3670/58/543125556/2606/a65096b9/580d80afN63b1085a.png?width=76&height=76" alt="">
+        <img src="//img12.360buyimg.com/jrpmobile/jfs/t4378/62/155957680/9017/16463551/58affd58Nb5c9198e.jpg?width=120&height=120" alt="">
         <div>
-          <h4>月度理财</h4>
-          <p>预期年化收益率4.50%</p>
+          <h4>开通白条</h4>
+          <p>送188元礼包</p>
         </div>
-        <em>去赚钱 > </em>
+        <em>立即开通 > </em>
       </div>
       <div :class="$style.item">
-        <img src="//img12.360buyimg.com/jrpmobile/jfs/t3679/44/511862277/2728/c1c6b2bf/580d8189N6b6f8052.png?width=76&height=76" alt="">
+        <img src="//img12.360buyimg.com/jrpmobile/jfs/t4150/330/141981421/9147/604e3e04/58affc3bNbfa8f9d7.jpg?width=120&height=120" alt="">
         <div>
-          <h4>季度理财</h4>
-          <p>历史年化回报率5.50%</p>
+          <h4>白条闪付</h4>
+          <p>新手享158元礼包</p>
         </div>
-        <em>去赚钱 > </em>
+        <em>随机立减 > </em>
       </div>
       <div :class="$style.item">
-        <img src="//img12.360buyimg.com/jrpmobile/jfs/t3331/69/580199498/3074/d5bb21c5/580d7f6cN7f35e596.png?width=76&height=76" alt="">
+        <img src="//img12.360buyimg.com/jrpmobile/jfs/t4270/96/1102370053/8651/58b7fa5a/58bd2e10N453e9464.jpg?width=120&height=120" alt="">
         <div>
-          <h4>一年理财</h4>
-          <p>历史年化回报率5.80%</p>
+          <h4>白条提额</h4>
+          <p>金融app专享提额礼包</p>
         </div>
-        <em>去赚钱 > </em>
+        <em>去提额 > </em>
       </div>
     </section>
   </Panel>
@@ -72,9 +72,9 @@ export default {
           font-size: 32px;
           color: #333;
           line-height: 1.8;
-          width: 344px;
+          width: 304px;
           p{
-            color: #ff3232;
+            color: #999;
             font-size: 24px;
             line-height: 1.1;
             white-space: nowrap;
